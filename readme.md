@@ -20,8 +20,11 @@ It automates the setup of Jenkins on an **Amazon Linux 2** server (`ami-0886832e
 ## 📂 Project Structure
 
 ├── main.tf # Terraform resources (VPC, EC2, SG, Jenkins installation)
+
 ├── variables.tf # Input variables (region, instance_type, etc.)
+
 ├── provider.tf # AWS provider configuration
+
 ├── outputs.tf # Output values (Public IP, Instance ID)
 
 
